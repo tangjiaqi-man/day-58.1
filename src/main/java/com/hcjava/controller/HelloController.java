@@ -131,6 +131,7 @@ public class HelloController {
 		return new ModelAndView(new RedirectView("hello10.do"));
 	}
  }
+	//分支合并测试
 	//使用redirect重定向
 	@RequestMapping("hello12.do")
 	public String hello12(User user ) {
