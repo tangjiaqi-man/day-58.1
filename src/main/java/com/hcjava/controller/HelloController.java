@@ -53,8 +53,6 @@ public class HelloController {
 	//当后台接收参数和前台传的参数名不一样,可以通过@RequestParm强制转换为后台参数
 	@RequestMapping("/hello3.do")
 	public ModelAndView hello3(String userName,@RequestParam("password") String pwd) {
-		System.out.println(userName);
-		System.out.println(pwd);
 		return new ModelAndView("jsp/hello");
 	}
 	/**
