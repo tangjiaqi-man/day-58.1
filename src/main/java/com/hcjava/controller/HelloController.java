@@ -137,7 +137,7 @@ public class HelloController {
 		if(user .getUserName().equals("zs")) {
 			return "jsp/hello";
 		}else {
-			return "redirect:hello10.89465295";
+			return "redirect:hello10.do";
 		}
 			
 	}
