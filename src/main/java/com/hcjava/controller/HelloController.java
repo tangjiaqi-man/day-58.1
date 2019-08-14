@@ -25,9 +25,11 @@ import com.hcjava.entity.User;
  *
  */
 public class HelloController {
+	
 	@RequestMapping("/hello.do")
 	public String hello() {
 		System.out.println("第三步配置成功");
+		
 		return "jsp/hello";
 	}
 	/*
@@ -135,7 +137,7 @@ public class HelloController {
 		if(user .getUserName().equals("zs")) {
 			return "jsp/hello";
 		}else {
-			return "redirect:hello10.do";
+			return "redirect:hello10.sakjdhfisad";
 		}
 			
 	}
