@@ -39,8 +39,6 @@ public class HelloController {
 	public ModelAndView hello1(HttpServletRequest request) {
 		String userName = request.getParameter("userName");
 		String password = request.getParameter("password");
-		System.out.println(userName);
-		System.out.println(password);
 		return new ModelAndView("jsp/hello");
 	}
 	/*使用参数方法接收
