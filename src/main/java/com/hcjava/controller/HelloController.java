@@ -135,9 +135,11 @@ public class HelloController {
 	@RequestMapping("hello12.do")
 	public String hello12(User user ) {
 		if(user .getUserName().equals("zs")) {
+
 			return "jsp/hello";
 		}else {
 			return "redirect:hello10.do";
+
 
 
 			
