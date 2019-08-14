@@ -77,6 +77,7 @@ public class HelloController {
 	Map<String, Object> date = new HashMap<String,Object>();
 	date.put("success", true);
 	date.put("message", "操作成功");
+	System.out.println(Use)
 		return new ModelAndView("jsp/hello",date);
 	}
 	//使用ModelMap传出数据
