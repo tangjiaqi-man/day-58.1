@@ -139,7 +139,7 @@ public class HelloController {
 		}else {
 			return "redirect:hello10.do";
 
-		}
+
 			
 	}
 }
